@@ -9,17 +9,17 @@ header .Logotipo{
   position: absolute;
   top: 0;
   left: 0;
-  width: 93px;
+  width: 183px;
   border-radius: 0%;
 }
 
 header {
     background-color: #722f37;
     color: white;
-    padding: 20px 0;
+    padding: 50px 0;
     text-align: center;
     font-family: Helvetica;
-    font-size: 45px;
+    font-size: 70px;
 }
 
 
@@ -38,6 +38,11 @@ header {
     padding: 20px;
     width: 250px;
     text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .box:hover {
+    transform: translateY(-5px);
   }
 
   .box img {
@@ -57,15 +62,23 @@ header {
     font-size: 15px;
   }
 
+  .box:hover {
+    transform: translateY(-5px);
+  }
+
 .fotos-perfil {
     border-radius: 50%;
     border: 2px solid #722f37;
 }
 
-footer {
+footer{
   background-color: #722f37;
   color: white;
   padding: 20px 0;
+}
+
+footer table{
+  padding-left: 550px;
   text-align: center;
   font-family: Helvetica;
   font-size: 15px;
