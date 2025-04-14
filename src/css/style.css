@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(114, 47, 55);
+}
+
+.apresentacao {
+  height: 700px;
+  border-top: 20px solid rgb(114, 47, 55);
+  color: #f4f4f4;
+  background-color: rgb(114, 47, 55);
+  text-decoration: rgb(244, 244, 244);
+}
+
+.apresentacao article {
+  margin-left: 100px;
+}
+
+.apresentacao article h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.apresentacao article h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.apresentacao article p {
+  font-size: 15px;
+  width: 500px;
+}
+
+.triangulo {
+  width: 0;
+  height: 0;
+  border-left: 500px solid transparent;
+  border-right: 500px solid transparent;
+  border-top: 90px solid rgb(114, 47, 55);
+  position: absolute;
+  right: 150px;
+  top: 542px;
+}
+
+.contatos {
+  position: sticky;
+  right: 30px;
+}
