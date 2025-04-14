@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+
+header .Logotipo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 93px;
+  border-radius: 0%;
+}
+
+header {
+    background-color: #722f37;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 45px;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .box {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+  }
+
+  .box img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+
+  .box h3 {
+    margin: 10px 0 5px;
+  }
+
+  .box p {
+    color: #555;
+    font-size: 15px;
+  }
+
+.fotos-perfil {
+    border-radius: 50%;
+    border: 2px solid #722f37;
+}
+
+footer {
+  background-color: #722f37;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 15px;
+}
