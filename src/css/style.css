@@ -10,10 +10,10 @@ header {
 }
 
 .apresentacao {
-  height: 700px;
-  border-top: 20px solid rgb(114, 47, 55);
+  height: 600px;
+  border-top: 10px solid rgb(97, 40, 46);
   color: #f4f4f4;
-  background-color: rgb(114, 47, 55);
+  background-color: rgb(97, 40, 46);
   text-decoration: rgb(244, 244, 244);
 }
 
@@ -32,22 +32,28 @@ header {
 }
 
 .apresentacao article p {
-  font-size: 15px;
+  margin-top: 100px;
+  margin-left: 80px;
+  font-size: 18px;
   width: 500px;
 }
 
 .triangulo {
   width: 0;
   height: 0;
-  border-left: 500px solid transparent;
-  border-right: 500px solid transparent;
-  border-top: 90px solid rgb(114, 47, 55);
+  border-left: 700px solid transparent;
+  border-right: 700px solid transparent;
+  border-top: 90px solid rgb(97, 40, 46);
   position: absolute;
-  right: 150px;
-  top: 542px;
+  top: 629.1px;
 }
 
+.chamadaCadastro {
+  margin-top: 100px;
+}
+
+/* preciso arrumar contato para a aba de contatos grudado na tela*/
 .contatos {
   position: sticky;
-  right: 30px;
+  color: aqua;
 }
