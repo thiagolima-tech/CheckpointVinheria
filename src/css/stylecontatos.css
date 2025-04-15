@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -8,28 +8,27 @@ body {
 }
 
 header {
-  margin: 0;
-  background-color: #722F37;
-  color: #fff;
-  padding: 30px;
+  background-color: #722f37;
+  color: white;
+  padding: 15px;
   text-align: center;
-  display: flex;
-  position: relative;
+  font-family: Helvetica;
+  font-size: 50px;
+  margin-bottom: 55px;
 }
+
 
 header .logo {
   position: absolute;
   top: 0;
   left: 0;
-  width: 111px;
+  width: 85px;
 }
 
-header h1 {
-  margin: 0 auto;
-}
 
 .nav-link {
   margin-top: 15px;
+  margin-left: 170px;
 }
 .nav-link ul {
   list-style: none;
@@ -48,6 +47,25 @@ header h1 {
   color: #ffff;
 }
 
+.nav-link ul li a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  padding-top: 10px;
+  padding-inline: 200px;
+  font-size: 25px;
+}
+
+div{
+  text-align: center;
+  font-size: 20px;
+}
 
 h1,
 h2 {
@@ -80,9 +98,18 @@ button:hover {
   background-color: #3b181c;
 }
 
+footer table{
+  padding-left: 410px;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 15px;
+}
+
 footer {
   text-align: center;
   padding: 10px;
   background-color: #722F37;
   color: #fff;
 }
+
+
