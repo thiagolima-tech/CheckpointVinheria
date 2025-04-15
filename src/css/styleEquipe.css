@@ -9,19 +9,39 @@ header .Logotipo{
   position: absolute;
   top: 0;
   left: 0;
-  width: 93px;
+  width: 120px;
   border-radius: 0%;
 }
 
 header {
     background-color: #722f37;
     color: white;
-    padding: 20px 0;
+    padding: 15px;
     text-align: center;
     font-family: Helvetica;
-    font-size: 45px;
+    font-size: 50px;
+    margin-bottom: 55px;
 }
 
+ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  padding-top: 10px;
+  padding-inline: 200px;
+  font-size: 25px;
+}
+
+a {
+  color: white;
+  text-decoration: none
+}
+
+div{
+  text-align: center;
+  font-size: 20px;
+}
 
 .container {
     display: flex;
@@ -38,6 +58,11 @@ header {
     padding: 20px;
     width: 250px;
     text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .box:hover {
+    transform: translateY(-5px);
   }
 
   .box img {
@@ -57,15 +82,23 @@ header {
     font-size: 15px;
   }
 
+  .box:hover {
+    transform: translateY(-5px);
+  }
+
 .fotos-perfil {
     border-radius: 50%;
     border: 2px solid #722f37;
 }
 
-footer {
+footer{
   background-color: #722f37;
   color: white;
   padding: 20px 0;
+}
+
+footer table{
+  padding-left: 550px;
   text-align: center;
   font-family: Helvetica;
   font-size: 15px;
