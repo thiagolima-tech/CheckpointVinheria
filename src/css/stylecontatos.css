@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #e0d4b8;
+  color: #333;
+}
+
+header {
+  margin: 0;
+  background-color: #722F37;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  position: relative;
+}
+
+header .logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 111px;
+}
+
+header h1 {
+  margin: 0 auto;
+}
+
+.nav-link {
+  margin-top: 15px;
+}
+.nav-link ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-link ul li {
+
+  margin-right: 15px;
+}
+
+.nav-link ul li a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+
+h1,
+h2 {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.Contato-Informacoes,
+.Enviar-Mensagem {
+  margin-bottom: 30px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+button {
+  background-color: #722F37;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #3b181c;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #722F37;
+  color: #fff;
+}
