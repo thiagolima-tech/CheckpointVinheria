@@ -140,3 +140,7 @@ footer table {
   font-family: Helvetica;
   font-size: 15px;
 }
+
+footer p {
+  margin-left: 500px;
+}
