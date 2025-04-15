@@ -58,7 +58,7 @@ header a:hover {
 }
 
 .apresentacao article p {
-  margin-top: 100px;
+  margin-top: 90px;
   margin-left: 80px;
   font-size: 18px;
   width: 500px;
@@ -74,8 +74,32 @@ header a:hover {
   top: 729.3px;
 }
 
+.box {
+  width: 520px;
+  height: 100px;
+  position: absolute;
+  border-radius: 10px;
+  background-color: rgb(209, 7, 7);
+  top: 152%;
+  left: 31%;
+}
+
 .chamadaCadastro {
-  margin-top: 100px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.chamadaCadastro h2 {
+  font-size: 60px;
+  margin-left: 40px;
+}
+
+.chamadaCadastro a {
+  position: relative;
+  z-index: 1;
+  font-size: 70px;
+  display: block;
+  text-align: center;
 }
 
 /* preciso arrumar contato para a aba de contatos grudado na tela*/
