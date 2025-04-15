@@ -5,6 +5,13 @@ body {
   padding: 0;
 }
 
+header .Logotipo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120px;
+}
+
 header {
   background-color: rgb(114, 47, 55);
   color: white;
@@ -74,6 +81,13 @@ header a:hover {
   top: 729.3px;
 }
 
+.apresentacao img {
+  position: absolute;
+  width: 800px;
+  right: 170px;
+  bottom: -50px;
+}
+
 .box {
   width: 520px;
   height: 100px;
@@ -86,10 +100,11 @@ header a:hover {
 
 .chamadaCadastro {
   margin-top: 150px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 .chamadaCadastro h2 {
+  text-align: center;
   font-size: 60px;
   margin-left: 40px;
 }
@@ -104,6 +119,25 @@ header a:hover {
 
 /* preciso arrumar contato para a aba de contatos grudado na tela*/
 .contatos {
-  position: sticky;
-  color: aqua;
+  position: fixed;
+  z-index: 2;
+  bottom: 50px;
+  right: 0px;
+}
+
+.contatos img {
+  width: 150px;
+  height: 150px;
+}
+
+footer {
+  background-color: #722f37;
+  color: white;
+}
+
+footer table {
+  padding-left: 500px;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 15px;
 }
