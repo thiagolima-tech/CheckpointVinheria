@@ -108,3 +108,8 @@ footer table{
   font-family: Helvetica;
   font-size: 15px;
 }
+
+footer p{
+  text-align: center;
+  font-size: 15px;
+}
