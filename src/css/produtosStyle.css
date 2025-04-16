@@ -117,3 +117,21 @@ section .imagemProduto button {
   height: 3px;       
   background-color: #7e1d0c;
   }
+
+  footer{
+    background-color: #722f37;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  footer table{
+    padding-left: 550px;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 15px;
+  }
+  
+  footer p{
+    text-align: center;
+    font-size: 15px;
+  }
