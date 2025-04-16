@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
-  color: #333;
+  color: black;
 }
 
 header .Logotipo{
@@ -105,4 +105,7 @@ footer p{
   font-size: 15px;
 }
 
+.link {
+  color: #0000FF;
+}
 
