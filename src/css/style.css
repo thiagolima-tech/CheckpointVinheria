@@ -102,9 +102,14 @@ header a:hover {
 .chamadaCadastro a {
   padding: 10px;
   border-radius: 10px;
-  background-color: rgb(209, 7, 7);
+  background-color: rgb(255, 6, 6);
   font-size: 50px;
-  margin-left: 575px
+  margin-left: 500px;
+}
+
+.chamadaCadastro a:hover {
+  padding: 11px;
+  background-color: rgb(209, 7, 7);
 }
 
 .contatos {
@@ -119,20 +124,20 @@ header a:hover {
   height: 150px;
 }
 
-footer{
+footer {
   background-color: #722f37;
   color: white;
   padding: 20px 0;
 }
 
-footer table{
+footer table {
   padding-left: 550px;
   text-align: center;
   font-family: Helvetica;
   font-size: 15px;
 }
 
-footer p{
+footer p {
   text-align: center;
   font-size: 15px;
 }
