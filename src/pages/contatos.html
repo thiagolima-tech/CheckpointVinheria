@@ -1,72 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página de Contatos</title>
+    <meta
+      name="keywords"
+      content="contatos, página de contatos, informações de contato"
+    />
+    <meta
+      name="description"
+      content="Esta é a página de contatos onde você pode encontrar informações de contato."
+    />
+    <link rel="stylesheet" href="/src/css/stylecontatos.css" />
+    <link
+      rel="shortcut icon"
+      href="/src/assets/images/LogotipoSemEscrita.png"
+      type="image/x-icon"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Página de Contatos</title>
-  <meta name="keywords" content="contatos, página de contatos, informações de contato" />
-  <meta name="description" content="Esta é a página de contatos onde você pode encontrar informações de contato." />
-  <link rel="stylesheet" href="/src/css/stylecontatos.css" />
-  <link rel="shortcut icon" href="/src/assets/images/LogotipoSemEscrita.png" type="image/x-icon" />
-</head>
+  <body>
+    <header>
+      <div>
+        <img class="Logotipo" src="/src/assets/images/Vinheria Agnello.png" alt="Logotipo Vinheria">
+      </div>
+      
+      <nav class="nav-link">
+        <ul>
+          <li>
+            <a href="../../index.html">Início</a>
+          </li>
+          <li>
+            <a href="../pages/historia.html">História</a>
+          </li>
+          <li>
+            <a href="../pages/contatos.html">Contatos</a>
+          </li>
+          <li>
+            <a href="../pages/produtos.html">Produtos</a>
+          </li>
+          <li>
+            <a href="../pages/equipe.html">Equipe</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-<body>
-  <header>
+    <div>
+      <h1 id="contatos">Nossos Contatos:</h1>
+    </div>
 
-    <img src="/src/assets/images/Vinheria Agnello.png" alt="Logo da Vinheria" class="logo" />
-
-    <h1 id="contatos">Contatos</h1>
-
-    <nav class="nav-link">
-
-      <ul>
-
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="../pages/equipe.html">Equipe</a></li>
-        <li><a href="../pages/produtos.html">Produtos</a></li>
-        <li><a href="../pages/"></a></li>
-
-      </ul>
-
-    </nav>
-
-  </header>
-
-  <main>
-    <section class="Contato-Informacoes">
-      <h2>Informações de Contato</h2>
-      <p>
-        Email: <a href="vinheriaagnello">vinheriaagnello@gmail.com</a>
-      </p>
-      <p>Telefone: <a href="tel:+5511999999999">(11) 87245-0491</a></p>
-      <p>Endereço: Rua dos Vinhos, 123 - São Paulo, SP</p>
-    </section>
-
-    <section class="enviar-Mensagem">
-      <h2>Envie uma Mensagem:</h2>
-      <br>
-      <form action="" method="post">
-        <label for="name">Nome:</label>
-        <input type="text" id="name" name="name" placeholder="Digite seu Nome." />
+    <main>
+      <section class="Contato-Informacoes">
+        <h2>Informações de Contato</h2>
         <p>
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" placeholder="Digite seu Email." />
-        </p>
-        <label for="telefone">Telefone:</label>
-        <input type="tel" id="telefone" name="telefone" placeholder="Digite seu Número." />
-        <p>
-          <label for="message">Mensagem:</label>
-          <textarea id="message" name="message" rows="5" cols="30" placeholder="Digite sua mensagem aqui."></textarea>
-        </p>
-        <button type="submit">Enviar</button>
-      </form>
-    </section>
-  </main>
+          Email: <a href="vinheriaagnello" class="link">vinheriaagnello@gmail.com</a></p>
+        <p>Telefone: <a href="tel:+5511999999999" class="link">(11) 87245-0491</a></p>
+        <p>Instagram: <a href="instagram.com"></a>Vinheria_Agnello</p>
+        <p>Facebook: <a href="facebook.com"></a>Vinheria Agnello</p>
+        <p>Endereço: Rua dos Vinhos, 123 - São Paulo, SP</p>
+      </section>
 
-  <footer>
-    <p>&copy; 2025 Vinheria Agnello. Todos os direitos reservados.</p>
-  </footer>
-</body>
+      <section class="enviar-Mensagem">
+        <h2>Envie uma Mensagem:</h2>
+        <br />
+        <form action="contatos.html" method="get">
+          <label for="name">Nome:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Digite seu Nome."
+          />
+          <p>
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Digite seu Email."
+            />
+          </p>
+          <label for="telefone">Telefone:</label>
+          <input
+            type="tel"
+            id="telefone"
+            name="telefone"
+            placeholder="Digite seu Número."
+          />
+          <p>
+            <label for="message">Mensagem:</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              cols="30"
+              placeholder="Digite sua mensagem aqui."
+            ></textarea>
+          </p>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
 
+    <footer>
+      <table>
+        <thead>
+          <tr>
+            <th>Redes Sociais</th>
+            <th>Contatos</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Youtube, Facebook, Instagram</td>
+            <td>(11) 87245-0491</td>
+          </tr>
+          <tr>
+            <td>WhatsApp</td>
+            <td>vinheriagnello@gmail.com</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>&copy; 2025 Vinheria Agnello. Todos os direitos reservados.</p>
+    </footer>
+  </body>
 </html>
