@@ -88,16 +88,6 @@ header a:hover {
   bottom: -50px;
 }
 
-.box {
-  width: 520px;
-  height: 100px;
-  position: absolute;
-  border-radius: 10px;
-  background-color: rgb(209, 7, 7);
-  bottom: -440px;
-  left: 400px;
-}
-
 .chamadaCadastro {
   margin-top: 150px;
   margin-bottom: 70px;
@@ -110,11 +100,11 @@ header a:hover {
 }
 
 .chamadaCadastro a {
-  position: relative;
-  z-index: 1;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(209, 7, 7);
   font-size: 70px;
-  display: block;
-  text-align: center;
+  margin-left: 430px;
 }
 
 .contatos {
