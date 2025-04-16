@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Helvetica;
   background-color: #f4f4f4;
   margin: 0;
   padding: 0;
@@ -103,8 +103,8 @@ header a:hover {
   padding: 10px;
   border-radius: 10px;
   background-color: rgb(209, 7, 7);
-  font-size: 70px;
-  margin-left: 430px;
+  font-size: 50px;
+  margin-left: 575px
 }
 
 .contatos {
@@ -119,21 +119,20 @@ header a:hover {
   height: 150px;
 }
 
-footer {
+footer{
   background-color: #722f37;
   color: white;
+  padding: 20px 0;
 }
 
-footer table {
-  padding-left: 460px;
+footer table{
+  padding-left: 550px;
   text-align: center;
   font-family: Helvetica;
   font-size: 15px;
 }
 
-footer {
+footer p{
   text-align: center;
-  padding: 10px;
-  background-color: #722f37;
-  color: #fff;
+  font-size: 15px;
 }
