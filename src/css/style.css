@@ -125,12 +125,15 @@ footer {
 }
 
 footer table {
-  padding-left: 500px;
+  padding-left: 460px;
   text-align: center;
   font-family: Helvetica;
   font-size: 15px;
 }
 
-footer p {
-  margin-left: 500px;
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #722f37;
+  color: #fff;
 }
