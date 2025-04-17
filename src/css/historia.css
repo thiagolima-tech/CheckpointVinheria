@@ -13,6 +13,14 @@ body {
   margin: 0;
 }
 
+header .Logo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120px;
+  border-radius: 0%;
+}
+
 header {
   background-color: #722f37;
   color: white;
@@ -43,17 +51,6 @@ a {
   text-decoration: none
 }
 
-.logo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 120px;
-}
-
-.logo img {
-  width: 100%;
-  border-radius: 0%;
-}
 
 nav ul {
   list-style: none;
