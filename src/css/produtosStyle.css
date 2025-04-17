@@ -1,142 +1,132 @@
- * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}  
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 header {
-    background-color: #722f37;
-    color: white;
-    padding:40px ;
-    text-align: center;
-    font-family:'Helvetica';
-    font-size: 50px;
-
+  background-color: #722f37;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  font-family: "Helvetica";
+  font-size: 50px;
 }
 
-header .logo{
-    position: absolute;
-    top: 0;
-    left: 0;
+header .logo {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-header .logo img{
-    width: 138px;
-    height: auto;
+header .logo img {
+  width: 138px;
+  height: auto;
 }
 
 header nav {
-    flex: 1;
-    text-align: center;
-
+  flex: 1;
+  text-align: center;
 }
 
 header nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 165px;
-    
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 165px;
 }
 
 header nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 25px;
-    transition: color 0.3s ease;
-    cursor: pointer;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  transition: color 0.3s ease;
+  cursor: pointer;
 }
 
 header nav ul li a:hover {
-    color: rgb(255, 255, 255);
-    text-decoration: underline;
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
 }
 
 section .titulo h1 {
-    padding-top: 50px ;
-    text-align: center;
-<<<<<<< HEAD
-    font-family: 'montserrat';
-    color: white;
-=======
-    font-family: 'Helvetica';
->>>>>>> e58cc892e0db3509df94780e5fa851a385b434fa
-    font-size: 70px;
+  padding-top: 50px;
+  text-align: center;
+  font-family: "Helvetica";
+  font-size: 70px;
 }
 
-section .subtitulo h3{
-    padding-top: 25px;
-    font-size: 35px;
-    font-family:'montserrat';
-    color: #722f37;
+section .subtitulo h3 {
+  padding-top: 25px;
+  font-size: 35px;
+  font-family: "montserrat";
+  color: #722f37;
 }
-section{
-    background-color: #e0d4b8;
+section {
+  background-color: #e0d4b8;
 }
 
 section .imagemProduto {
-    width: 200px;
-    display: inline-block;
-    text-align: center;
-    margin: 20px;
-    font-family: Arial;
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+  font-family: Arial;
 }
 
-section .imagemProduto img{
-
-    width: 115px;
-    height: auto;
-    border-radius: 10px;
+section .imagemProduto img {
+  width: 115px;
+  height: auto;
+  border-radius: 10px;
 }
 
 section p {
-    font-family:'Lato' 
+  font-family: "Lato";
 }
 
-section .nomeProduto{
-    font-weight: bold;
+section .nomeProduto {
+  font-weight: bold;
 }
 
-section .precoProduto{
-    padding-top: 15px;
-    color: #45161c;
+section .precoProduto {
+  padding-top: 15px;
+  color: #45161c;
 }
 section .imagemProduto button {
-    padding-top: 20px;
-    background-color: #722f37;
-    color: #f1ecdc;
-    border: none;
-    padding: 8px 12px;
-    border-radius: 5px;
-    font-size: 14px;
-    cursor: pointer;
-  }
-  
-  .produto button:hover {
-    background-color: #722f37;
-  }
-
-  section .hr{
-    border: none;       
-  height: 3px;       
+  padding-top: 20px;
   background-color: #722f37;
-  }
+  color: #f1ecdc;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
 
-  footer{
-    background-color: #722f37;
-    color: white;
-    padding: 20px 0;
-  }
-  
-  footer table{
-    padding-left: 550px;
-    text-align: center;
-    font-family: Helvetica;
-    font-size: 15px;
-  }
-  
-  footer p{
-    text-align: center;
-    font-size: 15px;
-  }
+.produto button:hover {
+  background-color: #722f37;
+}
+
+section .hr {
+  border: none;
+  height: 3px;
+  background-color: #722f37;
+}
+
+footer {
+  background-color: #722f37;
+  color: white;
+  padding: 20px 0;
+}
+
+footer table {
+  padding-left: 550px;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 15px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 15px;
+}
