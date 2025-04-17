@@ -23,6 +23,26 @@ header {
   margin-bottom: 55px;
 }
 
+header a:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  padding-top: 10px;
+  padding-inline: 200px;
+  font-size: 25px;
+}
+
+a {
+  color: white;
+  text-decoration: none
+}
+
 .logo {
   position: absolute;
   top: 0;
