@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-color: rgb(114, 47, 55);
+  background-color: #722f37;
   color: white;
   padding: 15px;
   text-align: center;
@@ -14,25 +14,32 @@ header {
   font-size: 50px;
 }
 
-header ul {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  align-items: center;
-  padding-top: 10px;
-  padding-inline: 200px;
-  font-size: 25px;
-}
-
-a {
-  padding: 25px;
-  text-decoration: none;
-  color: white;
+header .Logotipo{
+position: absolute;
+top: 0;
+left: 0;
+width: 120px;
+border-radius: 0%;
 }
 
 header a:hover {
-  color: rgb(114, 47, 55);
-  background-color: #f4f4f4;
+color: rgb(255, 255, 255);
+text-decoration: underline;
+}
+
+ul{
+display: flex;
+justify-content: space-between;
+list-style: none;
+align-items: center;
+padding-top: 10px;
+padding-inline: 200px;
+font-size: 25px;
+}
+
+a {
+color: white;
+text-decoration: none
 }
 
 .cadastro {
@@ -99,15 +106,20 @@ form button:hover {
   background-color: #5a232b;
 }
 
-footer {
+footer{
   background-color: #722f37;
   color: white;
   padding: 20px 0;
 }
 
-footer table {
+footer table{
   padding-left: 550px;
   text-align: center;
   font-family: Helvetica;
+  font-size: 15px;
+}
+
+footer p{
+  text-align: center;
   font-size: 15px;
 }

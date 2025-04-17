@@ -27,7 +27,7 @@ header ul {
   list-style: none;
   align-items: center;
   padding-top: 10px;
-  padding-inline: 200px;
+  padding-inline: 175px;
   font-size: 25px;
 }
 
@@ -55,7 +55,7 @@ header a:hover {
 }
 
 .apresentacao article h1 {
-  font-size: 50px;
+  font-size: 45px;
   text-align: center;
 }
 
@@ -85,7 +85,7 @@ header a:hover {
   position: absolute;
   width: 800px;
   right: 170px;
-  bottom: -50px;
+  bottom: -15px;
 }
 
 .chamadaCadastro {

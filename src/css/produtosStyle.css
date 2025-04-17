@@ -4,70 +4,67 @@
     box-sizing: border-box;
 }  
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
 
 header {
     background-color: #722f37;
-    color: #f1ecdc;
-    padding:40px ;
+    color: white;
+    padding: 40.5px;
     text-align: center;
-    font-family:'Montserrat';
+    font-family: Helvetica;
     font-size: 50px;
-
+    margin-bottom: 0
 }
 
-header .logo{
-    position: absolute;
-    top: 0;
-    left: 0;
+header .Logotipo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120px;
+  border-radius: 0%;
 }
 
-header .logo img{
-    width: 138px;
-    height: auto;
+header a:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
 }
 
-header nav {
-    flex: 1;
-    text-align: center;
-
+ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  padding-top: 10px;
+  padding-inline: 175px;
+  font-size: 25px;
 }
 
-header nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 155px;
-}
-
-header nav ul li a {
-    text-decoration: underline;
-    color: #f1ecdc;
-    font-size: 22px;
-    font-weight: bold;
-    transition: color 0.3s ease;
-    cursor: pointer;
-}
-
-header nav ul li a:hover {
-    color: #e0d4b8;
+a {
+  color: white;
+  text-decoration: none
 }
 
 section .titulo h1 {
     padding-top: 50px ;
     text-align: center;
-    font-family: 'montserrat';
-    color: ;
-    font-size: 70px;
+    font-family: Helvetica;
+    font-size: 45px;
 }
 
 section .subtitulo h3{
     padding-top: 25px;
+    text-align: center;
     font-size: 35px;
-    font-family:'montserrat';
+    font-family: Helvetica;
     color: #722f37;
 }
 section{
-    background-color: #e0d4b8;
+    background-color: #f4f4f4;
 }
 
 section .imagemProduto {
@@ -75,7 +72,7 @@ section .imagemProduto {
     display: inline-block;
     text-align: center;
     margin: 20px;
-    font-family: Arial;
+    font-family: Helvetica;
 }
 
 section .imagemProduto img{
@@ -100,7 +97,7 @@ section .precoProduto{
 section .imagemProduto button {
     padding-top: 20px;
     background-color: #722f37;
-    color: #f1ecdc;
+    color: #f4f4f4;
     border: none;
     padding: 8px 12px;
     border-radius: 5px;
