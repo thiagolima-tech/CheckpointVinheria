@@ -49,7 +49,6 @@ Apresentação dos profissionais por trás da vinheria.
 - Contatos <br>
 Informações para contato, incluindo e-mail, telefone e redes sociais.
 
--Link para o site: <br>
 [Visite o site do GitHub](https://thiagolima-tech.github.io/CheckpointVinheria/)
 
 ## 👥 Integrantes do Grupo
