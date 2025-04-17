@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -72,6 +73,83 @@ section .imagemProduto {
   text-align: center;
   margin: 20px;
   font-family: Arial;
+=======
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+
+header {
+    background-color: #722f37;
+    color: white;
+    padding: 40.5px;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 50px;
+    margin-bottom: 0
+}
+
+header .Logotipo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120px;
+  border-radius: 0%;
+}
+
+header a:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  padding-top: 10px;
+  padding-inline: 175px;
+  font-size: 25px;
+}
+
+a {
+  color: white;
+  text-decoration: none
+}
+
+section .titulo h1 {
+    padding-top: 50px ;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 45px;
+}
+
+section .subtitulo h3{
+    padding-top: 25px;
+    text-align: center;
+    font-size: 35px;
+    font-family: Helvetica;
+    color: #722f37;
+}
+section{
+    background-color: #f4f4f4;
+}
+
+section .imagemProduto {
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    font-family: Helvetica;
+>>>>>>> 42d305df1fee86827f31f497c8fe3ec21305cf00
 }
 
 section .imagemProduto img {
@@ -93,7 +171,27 @@ section .precoProduto {
   color: #45161c;
 }
 section .imagemProduto button {
+<<<<<<< HEAD
   padding-top: 20px;
+=======
+    padding-top: 20px;
+    background-color: #722f37;
+    color: #f4f4f4;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .produto button:hover {
+    background-color: #722f37;
+  }
+
+  section .hr{
+    border: none;       
+  height: 3px;       
+>>>>>>> 42d305df1fee86827f31f497c8fe3ec21305cf00
   background-color: #722f37;
   color: #f1ecdc;
   border: none;

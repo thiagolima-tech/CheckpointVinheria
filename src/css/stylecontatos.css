@@ -7,43 +7,42 @@ body {
   color: black;
 }
 
-header .Logotipo{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 120px;
-  border-radius: 0%;
+header {
+  background-color: #722f37;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 50px;
+  margin-bottom: 55px;
 }
 
-header {
-    background-color: #722f37;
-    color: white;
-    padding: 15px;
-    text-align: center;
-    font-family: Helvetica;
-    font-size: 50px;
-    margin-bottom: 55px;
+header .Logotipo{
+position: absolute;
+top: 0;
+left: 0;
+width: 120px;
+border-radius: 0%;
 }
 
 header a:hover {
-  color: rgb(255, 255, 255);
-  text-decoration: underline;
+color: rgb(255, 255, 255);
+text-decoration: underline;
 }
 
-
 ul{
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  align-items: center;
-  margin-top: 25px;
-  padding-inline: 200px;
-  font-size: 25px;
+display: flex;
+justify-content: space-between;
+list-style: none;
+align-items: center;
+padding-top: 10px;
+padding-inline: 205px;
+font-size: 25px;
 }
 
 a {
-  color: white;
-  text-decoration: none
+color: white;
+text-decoration: none
 }
 
 div{
@@ -66,8 +65,9 @@ main {
 }
 
 .Contato-Informacoes,
-.Enviar-Mensagem {
+.enviar-Mensagem {
   margin-bottom: 30px;
+  margin-inline: 20px;
   background: #fff;
   padding: 30px;
   border-radius: 50px;
@@ -76,11 +76,24 @@ main {
 
 button {
   background-color: #722F37;
+  margin-left: 150px;
   color: #fff;
   border: none;
   padding: 10px 20px;
   cursor: pointer;
   border-radius: 4px;
+}
+
+.nome{
+  margin-left: 35px;
+}
+
+.mail{
+  margin-left: 39px;
+}
+
+.phone{
+  margin-left: 19px;
 }
 
 button:hover {
