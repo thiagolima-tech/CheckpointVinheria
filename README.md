@@ -49,6 +49,9 @@ Apresentação dos profissionais por trás da vinheria.
 - Contatos <br>
 Informações para contato, incluindo e-mail, telefone e redes sociais.
 
+-Link para o site: <br>
+[Visite o site do GitHub](https://thiagolima-tech.github.io/CheckpointVinheria/)
+
 ## 👥 Integrantes do Grupo
 | [<img loading="lazy" src="./src/assets/images/Vitor.png" width=115><br><sub>Vitor Alcantara</sub>](https://github.com/VitorAlcantara-tech) | [<img loading="lazy" src="./src/assets/images/Thiago.png" width=115><br><sub>Thiago Lima</sub>](https://github.com/thiagolima-tech) |  [<img loading="lazy" src="./src/assets/images/Matheus.png" width=115><br><sub>Matheus Vasques</sub>](https://github.com/maatvasques) | [<img loading="lazy" src="./src/assets/images/Marco.png" width=115><br><sub>Marco Aurélio</sub>](https://github.com/Arriatea) | [<img loading="lazy" src="./src/assets/images/Bernardo.png" width=115><br><sub>Bernardo Hanashiro</sub>](https://github.com/BernardoYuji) | 
 | :---: | :---: | :---: | :---: | :---: |
