@@ -7,10 +7,10 @@
 
 header {
     background-color: #722f37;
-    color: #f1ecdc;
+    color: white;
     padding:40px ;
     text-align: center;
-    font-family:'Montserrat';
+    font-family:'Helvetica';
     font-size: 50px;
 
 }
@@ -36,27 +36,32 @@ header nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 155px;
+    gap: 165px;
+    
 }
 
 header nav ul li a {
-    text-decoration: underline;
-    color: #f1ecdc;
-    font-size: 22px;
-    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
     transition: color 0.3s ease;
     cursor: pointer;
 }
 
 header nav ul li a:hover {
-    color: #e0d4b8;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
 }
 
 section .titulo h1 {
     padding-top: 50px ;
     text-align: center;
+<<<<<<< HEAD
     font-family: 'montserrat';
     color: white;
+=======
+    font-family: 'Helvetica';
+>>>>>>> e58cc892e0db3509df94780e5fa851a385b434fa
     font-size: 70px;
 }
 
@@ -115,7 +120,7 @@ section .imagemProduto button {
   section .hr{
     border: none;       
   height: 3px;       
-  background-color: #7e1d0c;
+  background-color: #722f37;
   }
 
   footer{
