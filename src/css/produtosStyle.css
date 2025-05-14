@@ -105,7 +105,7 @@ section .imagemProduto button {
     cursor: pointer;
   }
   
-  .produto button:hover {
+  .produto button {
     background-color: #722f37;
   }
 

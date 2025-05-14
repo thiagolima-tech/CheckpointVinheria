@@ -1,0 +1,20 @@
+@keyframes animacaoTituloSubTitulo {
+    0% {
+        opacity: 0%;
+        transform: rotateY(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: rotateY(0);
+    }
+
+}
+
+.titulo h1 .subtitulo h3{
+    opacity: 0;
+    animation: animacaoTituloSubTitulo 2.5s ease-out forwards;
+}
+.subtitulo h3{
+    opacity: 0;
+    animation: animacaoTituloSubTitulo 2.5s ease-out forwards;
+}

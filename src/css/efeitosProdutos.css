@@ -1,0 +1,12 @@
+.imagemProduto button:hover{
+    transform: scale(1.2);
+    color: #F5F5DC;
+}
+.imagemProduto button{
+    transition: transform 0.3s ease;
+}
+
+.nomeProduto::first-letter{
+    font-size: 20px ;
+    color: #5b111a ;
+}
