@@ -1,0 +1,14 @@
+header a:hover {
+  color: rgb(114, 47, 55);
+  background-color: #f4f4f4;
+  text-decoration: underline;
+}
+
+
+ 
+ article:hover {
+  background:beige;
+  color: black;
+  
+}
+
